@@ -38,21 +38,19 @@ modalBtnClose[0].addEventListener("click", () => {
   modalbg.style.display = "none";
 });
 
-// Validation du formulaire
-const formValid = document.querySelectorAll(".button");
+// // Validation du formulaire
+// const formValid = document.querySelectorAll(".button");
 
 // Error messages array
 let errors = [
   "Tous les champs doivent-être renseignés.",
-  "Le prénom ne doit comporter que des lettres ou des tirets.",
   "Veuillez entrer 2 caractères ou plus pour le champ du prénom.",
-  "Le nom ne doit comporter que des lettres ou des tirets.",
   "Veuillez entrer 2 caractères ou plus pour le champ du nom.",
   "L'adresse email n'est pas valide.",
-  "La date de naissance renseignée n'est pas valide.",
+  "Vous devez entrer votre date de naissance.",
   "Veuillez renseigner votre nombre de participation.",
   "Vous devez choisir une ville.",
-  "<br>Vous devez acceptez les termes et conditions pour participer.",
+  "<br>Vous devez vérifier que vous acceptez les termes et conditions.",
 ];
 
 // Checking form validation
