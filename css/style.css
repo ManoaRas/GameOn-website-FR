@@ -570,6 +570,8 @@ footer {
   }
   .topnav a.active {
     border-radius: 15px;
+    background-color: #ff0000;
+    color: #ffffff;
   }
   .topnav.responsive {
     display: flex;
